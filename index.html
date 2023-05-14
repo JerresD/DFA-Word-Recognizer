@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DFA Place Recognizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DFA - Place Finder</h1>
+        <p>Pattern (input string): Malaysia, Singapore, British, Kuala Lumpur</p>
+        <br>
+        <textarea id="textField">Default Passage: 
+Malaysia is a federal constitutional monarchy located in Southeast Asia. It consists of thirteen states and three federal territories and has a total landmass of 329,847 square kilometres (127,350 sq mi) separated by the South China Sea into two similarly sized regions, Peninsular Malaysia and East Malaysia (Malaysian Borneo).</textarea>
+        <br><br>
+        <input type="file" id="readFile">
+        <button onclick="getText()">Run Text</button>
+    </div>
+    <br><br><hr><br>
+    <h2>Number of Occurrence</h2>
+    <div id="text-occurence"></div>
+    <br>
+    <h2>Result</h2>
+    <div id="text-array"><div id="temp"></div></div>
+
+</body>
+    <script src="script.js"></script>
+</html>

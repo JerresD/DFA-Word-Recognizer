@@ -1,0 +1,13 @@
+
+body {
+    padding: 10px 50px 0 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+#textField {
+    height: 150px;
+    width: 500px;
+}
